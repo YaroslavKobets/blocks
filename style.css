@@ -64,7 +64,7 @@
   width: 180px;
   height: 180px;
   border-radius: 50%;
-  border-top: 1.5px solid rgba(255, 255, 255, 0.3);
+  border-top: 2px solid rgba(255, 255, 255, 0.3);
   border-right: 0.5px solid rgba(255, 255, 255, 0.15);
   border-left: 0.5px solid rgba(255, 255, 255, 0.15);
   border-bottom: 0.2px solid rgba(255, 255, 255, 0.05);
@@ -81,6 +81,8 @@
   z-index: 2;
   -webkit-transition: all .3s ease-in-out 0s;
   transition: all .3s ease-in-out 0s;
+  -webkit-box-shadow: 0 -20px 30px rgba(0, 0, 0, 0.3) inset;
+          box-shadow: 0 -20px 30px rgba(0, 0, 0, 0.3) inset;
 }
 
 .top-news__item span img {
